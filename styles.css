@@ -894,8 +894,8 @@ h1, h2, h3, h4, h5 {
         position: static; 
         width: 80%; 
         margin: 10px auto; 
-    }
-    .room-info-card { background-color: white; border: 1px solid #D9D9D9; width: 90%; }
+    /* }
+    .room-info-card { background-color: white; border: 1px solid #D9D9D9; width: 90%; } */
     .gallery-small-1, .gallery-small-2 { display: none; } /* Simplify layout */
     
     /* Footer */
