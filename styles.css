@@ -1,0 +1,1154 @@
+/* body{
+    overflow-X :hidden;
+}
+
+.navbar1 {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.navbar1 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+.nav {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav1 {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.icon {
+    display: flex;
+    gap: 25px;
+}
+
+.nav2 {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+
+    .nav {
+        display: none; 
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .icon {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 100px;
+    }
+
+    .icon i {
+        font-size: 18px;
+    }
+}
+
+.hero-2{
+    
+    font-weight: bolder;
+    
+  margin-top: -570px;
+    margin-left: 700px;
+    
+}
+.hero-1{
+margin-top: -820px;
+    margin-left: 670px;
+    height: 350px;
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.hero2{
+    margin-top: 320px;
+}
+.img2{
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+    
+}
+.text{
+ display: flex;  
+ justify-content: space-around; 
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.product{
+    display:flex  ;
+    justify-content: space-around;
+
+}
+.heroimg{
+    display: flex;
+    justify-content:space-around ;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+    
+
+}
+.card-img-top:hover{
+    color: black;
+}
+.heroimg1{
+    display: flex;
+    justify-content:space-around ;
+    margin-left: 20px;
+}
+.img{
+    height: 500px;
+    width: 300px;
+    
+}
+.class{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+.product-card {
+    width: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.card-info {
+    padding: 15px;
+    background: white;
+    transition: 0.4s;
+}
+
+.product-card:hover .card-info {
+    background: black;
+    color: white;
+}
+
+.card-info p {
+    opacity: 0.6;
+}
+
+.cart-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+    transition: 0.3s;
+}
+
+.product-card:hover .cart-btn {
+    display: block;
+}
+
+.product-card:hover img {
+    filter: brightness(70%);
+}
+.rectangle{
+    width: 1400px;
+    height: 600px;
+    margin-top: 40px;
+}
+.rectangle-text{
+    margin-top: -400px;
+    margin-left: 150px;
+}
+.img8{
+    width: 300px;
+    height: 430px;
+    margin-top: -300px;
+    margin-left: 630px;
+
+}
+.img9{
+    width:300px ;
+    height:350px ;
+    margin-top: -540px;
+    margin-left: 960px;
+}
+.img10{
+    width: 50px;
+    height: 350px;
+    margin-top: -580px;
+    margin-left: 1300px;
+
+
+}
+.room{
+    
+    width: 170px;
+    margin-top: -300px;
+    margin-left: 650px;
+    height: 120px;
+}
+.room1{
+    width: 200px;
+    margin-top: -200px;
+    height: 150px;
+    margin-left: 660px;
+}
+.share{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.share-text{
+ display: flex;
+    justify-content: center;
+    margin-top: 30px;   
+}
+.img12{
+    width: 80px;
+    height: 250px;
+    margin-top: -250px;
+}
+.img13{
+    width: 300px;
+    height: 200px;
+    margin-top:-195px;
+}
+.img14{
+    width: 200px;
+    height: 300px;
+    margin-top: 100px;
+} 
+.img15{
+    width: 200px;
+    height: 300px;
+    margin-top: -40px ;
+}
+.img16{
+    width: 200px;
+    height: 200px;
+}
+.img17{
+    width: 200px;
+    height: 200px;
+
+}
+.img18{
+    width: 200px;
+    height: 200px;
+}
+.img19{
+width: 200px;
+height: 200px;
+
+}
+.img20{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.list{
+    margin-left: 500px;
+    margin-top: -70px;
+}
+
+
+
+
+
+
+ */
+ /* --- Global Styles and Variables --- */
+:root {
+    --primary-color: #B88E2F; /* Accent/Buy Now color */
+    --background-light: #FAF3EA;
+    --text-dark: #333333;
+    --text-light: #9F9F9F;
+    --card-bg: #F4F5F7;
+    --max-width: 1240px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Example font */
+}
+
+body {
+    overflow-x: hidden;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--text-dark);
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-subheading {
+    text-align: center;
+    font-size: 18px;
+    color: var(--text-light);
+    margin-bottom: 50px;
+}
+
+.primary-btn {
+    background-color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color) !important;
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.primary-btn:hover {
+    opacity: 0.9;
+}
+
+/* --- 1. Header and Navigation --- */
+
+.navbar1 {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.navbar1 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.logo {
+    height: 40px; 
+    width: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+.nav1 {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav1:hover {
+    color: var(--primary-color);
+}
+
+.icon-group {
+    display: flex;
+    gap: 25px;
+}
+
+.nav2 {
+    color: var(--text-dark);
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav2:hover {
+    color: var(--primary-color);
+}
+
+
+/* --- 2. Hero Section --- */
+
+.hero-banner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 700px;
+    background-color: var(--background-light);
+    position: relative;
+    padding-top: 80px; 
+}
+
+.hero-image-wrapper { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+
+.hero-content-box {
+    position: relative;
+    z-index: 5;
+    background-color: var(--background-light);
+    padding: 60px 40px;
+    max-width: 600px;
+    margin-right: 5%; 
+}
+
+.new-arrival-tag {
+    color: var(--text-dark);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.hero-content-box h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+
+/* --- 3. Browse The Range Section --- */
+
+.browse-range {
+    padding: 80px 20px;
+}
+
+.range-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.range-item {
+    text-align: center;
+}
+
+.range-item img {
+    width: 380px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.range-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* --- 4. Our Products Section --- */
+
+.our-products {
+    padding: 50px 0;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.product-card {
+    background-color: var(--card-bg);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.product-card:hover .card-info {
+    background: black;
+    color: white;
+}
+
+.card-info h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+.product-card:hover .card-info h3 {
+    color: white;
+}
+
+.card-info p {
+    color: var(--text-light);
+    margin-bottom: 10px;
+}
+.product-card:hover .card-info p {
+    color: #CCCCCC;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Add to Cart button logic (Overlay) */
+.cart-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: var(--primary-color);
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s;
+    width: 80%;
+    text-align: center;
+}
+
+.product-card:hover .cart-btn {
+    opacity: 1;
+    z-index: 10;
+}
+.product-card:hover img {
+    filter: brightness(70%);
+}
+
+.show-more-btn {
+    display: block; 
+    margin: 50px auto 0; 
+    padding: 15px 60px;
+    font-size: 16px;
+    border: 1px solid var(--primary-color) !important;
+    color: var(--primary-color);
+    background-color: white;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.show-more-btn:hover {
+    color: white !important;
+    background-color: var(--primary-color) !important;
+}
+
+
+/* --- 5. Rooms Inspiration Section --- */
+
+.rooms-inspiration {
+    display: flex;
+    background-color: var(--background-light);
+    padding: 60px 0;
+    margin-top: 50px;
+}
+
+.room-text-content {
+    flex: 1;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.room-text-content h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.room-text-content p {
+    color: var(--text-dark);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.room-text-content .primary-btn {
+    width: fit-content;
+}
+
+.room-gallery-wrapper {
+    flex: 1.5;
+    position: relative;
+    height: 580px; 
+}
+
+.gallery-main-img { 
+    position: absolute;
+    width: 400px;
+    height: 580px;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+}
+
+.gallery-small-1 { /* Based on reference image structure */
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    left: 450px;
+    top: 0;
+}
+
+.gallery-small-2 { /* Based on reference image structure */
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    left: 420px;
+    top: 380px;
+}
+
+.room-info-card {
+    position: absolute;
+    
+    padding: 15px 25px;
+    width: 280px;
+    z-index: 10;
+    bottom: 50px;
+    left: 400px;
+}
+.room-info-card p, .room-info-card h3 {
+    margin: 0;
+}
+.room-number {
+    font-size: 14px;
+    color: var(--text-dark);
+}
+.divider {
+    color: var(--text-light);
+    margin: 0 5px;
+}
+.room-info-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* --- 6. Funiro Setup Gallery --- */
+
+.funiro-gallery {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.gallery-header {
+    margin-bottom: 50px;
+}
+
+.share {
+    color: var(--text-light);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.share-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-gallary-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(2, 220px); 
+    gap: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.img-gallary-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Grid layout matching the image reference */
+.img12 { grid-column: 1 / span 2; grid-row: 1 / span 2; }
+.img13 { grid-column: 3 / span 2; grid-row: 1 / span 1; }
+.img14 { grid-column: 5 / span 1; grid-row: 1 / span 1; }
+.img15 { grid-column: 6 / span 2; grid-row: 1 / span 2; }
+.img16 { grid-column: 8 / span 2; grid-row: 1 / span 2; }
+.img17 { grid-column: 3 / span 1; grid-row: 2 / span 1; }
+.img18 { grid-column: 4 / span 1; grid-row: 2 / span 1; }
+.img19 { grid-column: 5 / span 1; grid-row: 2 / span 1; }
+
+
+/* --- 7. Footer --- */
+
+.main-footer {
+    padding: 50px 20px;
+    border-top: 1px solid #D9D9D9;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.footer-main-info h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-main-info p {
+    color: var(--text-light);
+    max-width: 250px;
+}
+
+.footer-links, .footer-help {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-links h4, .footer-help h4, .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--text-light);
+}
+
+.footer-links a, .footer-help a {
+    text-decoration: none;
+    color: var(--text-dark);
+    transition: color 0.2s;
+}
+
+.footer-links a:hover, .footer-help a:hover {
+    color: var(--primary-color);
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.subscribe-form input {
+    border: none;
+    border-bottom: 1px solid var(--text-dark);
+    padding: 5px 0;
+    background: transparent;
+    font-size: 14px;
+    outline: none;
+    width: 60%;
+}
+.subscribe-form input::placeholder {
+    color: var(--text-light);
+}
+
+.subscribe-form button {
+    border: none;
+    border-bottom: 1px solid var(--text-dark);
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.copyright-bar {
+    padding: 20px 0;
+    border-top: 1px solid #D9D9D9;
+}
+
+.copyright-bar p {
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--text-dark);
+}
+.show{
+    margin-left: 500px;
+}
+
+
+/* --- Responsive Media Queries --- */
+
+@media (max-width: 1200px) {
+    .range-item img {
+        width: 100%;
+        height: 350px;
+    }
+    .room-gallery-wrapper {
+        height: 500px;
+        flex: 1.2;
+    }
+    .gallery-main-img {
+        width: 350px;
+        height: 500px;
+    }
+    .gallery-small-1 {
+        left: 400px;
+    }
+    .room-info-card {
+        left: 280px;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Navbar */
+    .nav { display: none; }
+    .navbar1 nav { padding: 15px 20px; }
+    
+    /* Hero */
+    .hero-banner { min-height: 550px; }
+    .hero-content-box { max-width: 90%; margin: 0 auto; text-align: center; }
+    .hero-content-box h1 { font-size: 40px; }
+    .hero-main-img { object-position: 70% 50%; }
+
+    /* Browse Range */
+    .range-grid { flex-wrap: wrap; }
+    .range-item { width: 45%; }
+    .range-item img { height: 300px; }
+    
+    /* Products */
+    .product-grid { grid-template-columns: repeat(2, 1fr); }
+    
+    /* Rooms */
+    .rooms-inspiration { flex-direction: column; }
+    .room-text-content { order: 1; text-align: center; padding: 20px; }
+    .room-text-content .primary-btn { margin: 0 auto 30px; }
+    .room-gallery-wrapper { order: 2; height: 550px; width: 100%; margin: 0 auto; }
+    
+    /* Center images in room gallery for mobile view */
+    .gallery-main-img, .gallery-small-1, .gallery-small-2, .room-info-card {
+        position: static; 
+        width: 80%; 
+        margin: 10px auto; 
+    }
+    .room-info-card { background-color: white; border: 1px solid #D9D9D9; width: 90%; }
+    .gallery-small-1, .gallery-small-2 { display: none; } /* Simplify layout */
+    
+    /* Footer */
+    .main-footer { grid-template-columns: 1fr 1fr; }
+    .footer-main-info { grid-column: 1 / span 2; }
+    .footer-newsletter { grid-column: 1 / span 2; }
+}
+
+@media (max-width: 576px) {
+    .section-heading { font-size: 32px; }
+    
+    /* Products */
+    .product-grid { grid-template-columns: 1fr; }
+    
+    /* Browse Range */
+    .range-item { width: 100%; }
+    
+    /* Gallery */
+    .img-gallary-grid { 
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 150px);
+    }
+    .img12 { grid-column: 1 / span 2; grid-row: 1 / span 2; }
+    .img15 { grid-column: 3 / span 2; grid-row: 1 / span 2; }
+    .img16 { grid-column: 1 / span 2; grid-row: 3 / span 1; }
+    .img13, .img14, .img17, .img18, .img19 { display: none; }
+    
+    /* Footer */
+    .main-footer { grid-template-columns: 1fr; }
+    .footer-main-info, .footer-links, .footer-help, .footer-newsletter { grid-column: 1 / span 1; }
+}
+
+
+
+
+
+
+/* --- 5. Rooms Inspiration Section (Refactored) --- */
+
+.rooms-inspiration {
+    display: flex;
+    background-color: var(--background-light);
+    padding: 60px 0;
+    margin-top: 50px;
+    align-items: stretch; /* Ensure both columns stretch */
+}
+
+.room-text-content {
+    flex: 1;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.room-text-content h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.room-text-content p {
+    color: var(--text-dark);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.room-text-content .primary-btn {
+    width: fit-content;
+}
+
+.room-gallery-wrapper {
+    flex: 1.5;
+    position: relative;
+    height: 580px; /* Base height for desktop */
+    display: flex; /* Use flex to control internal elements */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Base Image Styles (Relative Positioning for Flow) */
+.gallery-main-img { 
+    width: 400px;
+    height: 580px;
+    object-fit: cover;
+    z-index: 2;
+    margin-right: 20px; /* Space between main image and small images */
+}
+
+/* Container for the smaller images to manage their flow */
+.small-images-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.gallery-small-1, .gallery-small-2 { 
+    width: 250px; /* Adjust size */
+    object-fit: cover;
+    z-index: 1;
+}
+.gallery-small-1 { height: 300px; }
+.gallery-small-2 { height: 250px; }
+
+/* Room Info Card - Now positioned relative to the main image */
+.room-info-card {
+    position: absolute;
+    /* Adjusting position to be over the images */
+    left: 350px; /* Move slightly right to overlap main image */
+    bottom: 50px;
+    padding: 15px 25px;
+    width: 280px;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Add a slight blur */
+    border-left: 6px solid var(--primary-color);
+    z-index: 10;
+}
+.room-info-card p, .room-info-card h3 { margin: 0; }
+.room-number { font-size: 14px; color: var(--text-dark); }
+.divider { color: var(--text-light); margin: 0 5px; }
+.room-info-card h3 { font-size: 24px; font-weight: bold; }
+
+
+/* New HTML structure (Update needed in HTML) */
+/* Old HTML:
+<img src="img9.png" class="gallery-main-img">
+<img src="img10.png" class="gallery-small-1">
+<img src="img11.jpeg" class="gallery-small-2">
+<div class="room-info-card">...</div>
+
+New HTML should wrap small images:
+<div class="room-gallery-wrapper">
+    <img src="img9.png" alt="Main beautiful room" class="gallery-main-img">
+    <div class="small-images-container">
+        <img src="img10.png" alt="Small room detail 1" class="gallery-small-1">
+        <img src="img11.jpeg" alt="Small room detail 2" class="gallery-small-2">
+    </div>
+    <div class="room-info-card">...</div>
+</div>
+*/
+
+
+/* --- Responsive Media Queries (Updates) --- */
+
+@media (max-width: 1200px) {
+    /* Existing range item styles are fine */
+    .range-item img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    /* Rooms Section Adjustments for mid-size screens */
+    .room-gallery-wrapper {
+        height: 500px; /* Reduced height */
+    }
+    .gallery-main-img { 
+        width: 300px;
+        height: 500px;
+    }
+    .gallery-small-1 { 
+        width: 200px;
+        height: 250px;
+    }
+    .gallery-small-2 { 
+        width: 200px;
+        height: 200px;
+    }
+    .room-info-card {
+        left: 250px; /* Adjusted position due to smaller main image */
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* ... (Existing 992px styles remain for Navbar, Hero, Products, etc.) ... */
+    
+    /* Rooms Section: Stack columns */
+    .rooms-inspiration { 
+        flex-direction: column; 
+    }
+    .room-text-content { 
+        order: 1; 
+        text-align: center; 
+        padding: 20px; 
+    }
+    .room-text-content .primary-btn { margin: 0 auto 30px; }
+    
+    /* Center the main image for mobile/tablet stack */
+    .room-gallery-wrapper { 
+        order: 2; 
+        height: auto; /* Remove fixed height */
+        justify-content: center;
+        flex-direction: column; /* Stack images vertically for simpler layout */
+        align-items: center;
+    }
+    
+    /* Simplification: Show only the main image and info card */
+    .small-images-container {
+        display: none; /* Hide smaller images on smaller screens */
+    }
+    
+    .gallery-main-img {
+        width: 90%; 
+        height: 400px;
+        margin-right: 0;
+    }
+    
+    .room-info-card {
+        position: static; /* Remove absolute positioning */
+        width: 90%; 
+        margin-top: 10px;
+        border-left: none;
+        background-color: white; 
+        border: 1px solid #D9D9D9; 
+    }
+}
+@media (max-width:768px) {
+
+    .icon-group{
+        display: none;
+
+    }
+    .nav1{
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* Step 2: Mobile Devices (< 768px) ke liye */
+@media (max-width: 768px) {
+    /* Mukhya Navigation (main navigation) ko hide kar do */
+    .nav {
+        display: none; 
+        /* Jab user toggle button par click karega toh yeh JS se .active class
+           lagne par display: flex; ya block ho jayega */
+        flex-direction: column; /* Links ko vertically stack karne ke liye */
+        position: absolute; /* Links ko viewport par overlay karne ke liye */
+        /* ... baki styling jaise background, width: 100%, top, left, etc. */
+    }
+
+    /* Logo aur Icons ko align karne ke liye */
+    .container {
+        /* Abhi bhi space-between rakh sakte hain ya alag style kar sakte hain */
+    }
+
+    /* Hamburger/Toggle Button ko show karo */
+    /* HTML mein aapko ek <button> ya <div> add karna padega */
+    .menu-toggle-button {
+        display: block; /* Hamburger icon ab visible hoga */
+    }
+}
