@@ -866,7 +866,7 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width: 992px) {
     /* Navbar */
-    .nav { display: none; }
+    .nav{ display:none ; }
     .navbar1 nav { padding: 15px 20px; }
     
     /* Hero */
@@ -1115,10 +1115,10 @@ New HTML should wrap small images:
 }
 @media (max-width:768px) {
 
-    .icon-group{
+    /* .icon-group{
         display: none;
 
-    }
+    } */
     .nav1{
         display: none;
     }
@@ -1152,3 +1152,43 @@ New HTML should wrap small images:
         display: block; /* Hamburger icon ab visible hoga */
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
